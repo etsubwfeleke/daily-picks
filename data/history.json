@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "date": "2026-10-25",
+    "weekday": "Sunday",
+    "longDate": "25 October",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Deeply divided Israel braces for pivotal election",
+        "url": "https://www.bbc.co.uk/news/articles/ckpdgy6pl7xlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "The piece explains the stakes of Israel’s election after years of conflict."
+      },
+      {
+        "title": "Designing an AI serving harness built to last",
+        "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+        "source": "MIT Technology Review",
+        "why": "It shows why the surrounding infrastructure matters more than the model itself."
+      },
+      {
+        "title": "AI’s hidden storage bill: What inference leaves behind",
+        "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+        "source": "MIT Technology Review",
+        "why": "It reveals hidden storage costs that can dominate AI project budgets."
+      }
+    ],
+    "book": {
+      "title": "The effective engineer",
+      "author": "Edmond Lau",
+      "year": 2015,
+      "url": "https://openlibrary.org/works/OL20006564W",
+      "cover": "https://covers.openlibrary.org/b/id/9173899-M.jpg",
+      "why": "Practical advice on making impact fast in a new software role."
+    },
+    "hobby": {
+      "name": "paper quilling",
+      "try": "Buy a starter kit and fold a simple flower using the basic strip technique",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "command-line to-do list in Python",
+      "do": "Create a script that can add, list, and delete tasks stored in a JSON file."
+    }
+  }
+]
