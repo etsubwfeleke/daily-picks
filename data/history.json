@@ -25,12 +25,15 @@
       }
     ],
     "book": {
-      "title": "The effective engineer",
+      "title": "The Effective Engineer",
       "author": "Edmond Lau",
       "year": 2015,
       "url": "https://openlibrary.org/works/OL20006564W",
       "cover": "https://covers.openlibrary.org/b/id/9173899-M.jpg",
-      "why": "Practical advice on making impact fast in a new software role."
+      "why": "Practical advice on making impact fast in a new software role.",
+      "since": "2026-10-25",
+      "sinceLabel": "25 October",
+      "isNew": true
     },
     "hobby": {
       "name": "paper quilling",

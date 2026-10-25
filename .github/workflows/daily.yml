@@ -11,6 +11,10 @@ on:
         description: 'Redo today even if it was already picked'
         type: boolean
         default: false
+      new_book:
+        description: 'New book (finished or dropped the current one)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -33,6 +37,7 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           FORCE: ${{ inputs.force }}
+          NEW_BOOK: ${{ inputs.new_book }}
         run: node src/build.mjs
 
       - name: Save

@@ -4,7 +4,7 @@ const STYLE = `Write like a friend with good taste, not like an assistant.
 Plain, short sentences. No hype, no exclamation marks, no emoji.
 Do not use the words "delve", "dive into", "journey", "unlock", "elevate", or "game-changer".`;
 
-export function buildPrompt({ today, weekday, interests, world, ai, history }) {
+export function buildPrompt({ today, weekday, interests, world, ai, history, needBook }) {
   const list = (items, offset) =>
     items.map((item, i) => `${i + offset}. [${item.source}] ${item.title}${item.summary ? ` - ${item.summary}` : ''}`).join('\n');
 
@@ -27,15 +27,13 @@ Already suggested recently, do not repeat these:
 Return only JSON in exactly this shape:
 {
   "articles": [{ "index": <number from the lists above>, "why": "<one sentence on why it is worth reading>" }],
-  "books": [{ "title": "<exact published title>", "author": "<author full name>", "why": "<one or two sentences>" }],
-  "hobby": { "name": "<a craft or hobby>", "try": "<a concrete first step for this week, one or two sentences>", "time": "<rough time, like 1 hour>" },
+${needBook ? `  "books": [{ "title": "<exact published title>", "author": "<author full name>", "why": "<one or two sentences>" }],\n` : ''}  "hobby": { "name": "<a craft or hobby>", "try": "<a concrete first step for this week, one or two sentences>", "time": "<rough time, like 1 hour>" },
   "learn": { "kind": "coding" | "AI", "topic": "<short name>", "do": "<one small thing to do in 30 to 45 minutes, concrete>" }
 }
 
 Rules:
-- "articles": exactly 3. At least one world headline and at least one AI or tech headline. Pick substance over celebrity, gossip, or deals. Use only index numbers from the lists.
-- "books": 3 real, well-known books in order of preference, so a backup exists if the first cannot be found. Mix it up across days: novels, history, science, craft, AI, and books useful early in a new job.
-- "hobby": mostly crafts, sometimes a different kind of hobby worth trying. Something possible at home with cheap supplies.
+- "articles": exactly 3. At least one world headline and at least one AI or tech headline, each from a different source. Pick substance over celebrity, gossip, or deals. Use only index numbers from the lists.
+${needBook ? `- "books": 3 real, well-known books in order of preference, so a backup exists if the first cannot be found. This is the book for the next week or two, so pick something worth that time. Mix it up over time: novels, history, science, craft, AI, and books useful early in a new job.\n` : ''}- "hobby": mostly crafts, sometimes a different kind of hobby worth trying. Something possible at home with cheap supplies.
 - "learn": alternate between coding and AI across days. Something to actually do, not just read.
 
 ${STYLE}`;

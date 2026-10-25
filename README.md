@@ -3,7 +3,7 @@
 A small page that refreshes every morning with:
 
 - **3 articles** from the morning's world and AI headlines
-- **A book**, checked against Open Library so it is always a real one
+- **Your book**, checked against Open Library so it is always a real one. It stays for 7 days, then a new one is picked
 - **A craft or hobby** to try, with a first step
 - **One coding or AI thing** to do in 30 to 45 minutes
 
@@ -40,6 +40,8 @@ No packages to install. It uses plain Node.js (20 or newer).
 - **What gets asked for and the writing style:** edit the prompt in `src/model.mjs`.
 - **How the page looks:** edit `src/render.mjs`.
 - **When it runs:** the `cron` line in `.github/workflows/daily.yml` (in UTC).
+- **How long a book stays:** `bookEveryDays` in `config.json`.
+- **Finished or dropped the book early:** run the workflow from the Actions tab with "New book" ticked. Only the book changes.
 - **Redo today:** run the workflow from the Actions tab with "Redo today" ticked.
 
 ## Trying it locally

@@ -1,6 +1,16 @@
 const escape = (text) =>
   String(text ?? '').replace(/[&<>"']/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 
+const capitalize = (text) => {
+  const value = String(text ?? '').trim();
+  return value.charAt(0).toUpperCase() + value.slice(1);
+};
+
+const sentence = (text) => {
+  const value = capitalize(text);
+  return value && !/[.!?]$/.test(value) ? `${value}.` : value;
+};
+
 const safeUrl = (url) => (/^https?:\/\//.test(url ?? '') ? escape(url) : '#');
 
 const STYLE = `
@@ -43,7 +53,7 @@ function articles(day) {
       (article) => `<div class="card">
   <a href="${safeUrl(article.url)}">${escape(article.title)}</a>
   <div class="meta">${escape(article.source)}</div>
-  <p class="why">${escape(article.why)}</p>
+  <p class="why">${escape(sentence(article.why))}</p>
 </div>`,
     )
     .join('\n');
@@ -57,7 +67,8 @@ function book(day) {
   <div>
     <a href="${safeUrl(pick.url)}">${escape(pick.title)}</a>
     <div class="meta">${escape(pick.author)}${pick.year ? `, ${escape(pick.year)}` : ''}</div>
-    <p class="why">${escape(pick.why)}</p>
+    ${pick.sinceLabel ? `<div class="meta">${pick.isNew ? 'New this week' : `Since ${escape(pick.sinceLabel)}`}</div>` : ''}
+    <p class="why">${escape(sentence(pick.why))}</p>
   </div>
 </div>`;
 }
@@ -65,18 +76,18 @@ function book(day) {
 function hobby(day) {
   if (!day.hobby) return '<p class="empty">Nothing new today.</p>';
   return `<div class="card">
-  <strong>${escape(day.hobby.name)}</strong>
-  <div class="meta">${escape(day.hobby.time)}</div>
-  <p class="why">${escape(day.hobby.try)}</p>
+  <strong>${escape(capitalize(day.hobby.name))}</strong>
+  <div class="meta">${escape(capitalize(day.hobby.time))}</div>
+  <p class="why">${escape(sentence(day.hobby.try))}</p>
 </div>`;
 }
 
 function learn(day) {
   if (!day.learn) return '<p class="empty">Nothing new today.</p>';
   return `<div class="card">
-  <strong>${escape(day.learn.topic)}</strong>
-  <div class="meta">${escape(day.learn.kind)}</div>
-  <p class="why">${escape(day.learn.do)}</p>
+  <strong>${escape(capitalize(day.learn.topic))}</strong>
+  <div class="meta">${escape(day.learn.kind === 'AI' ? 'AI' : capitalize(day.learn.kind))}</div>
+  <p class="why">${escape(sentence(day.learn.do))}</p>
 </div>`;
 }
 
@@ -106,7 +117,7 @@ export function renderDay(day, recentDates, { linkPrefix }) {
   <h2>Read today</h2>
   ${articles(day)}
 
-  <h2>A book</h2>
+  <h2>Your book</h2>
   ${book(day)}
 
   <h2>Try this</h2>
