@@ -1,0 +1,27 @@
+{
+  "timezone": "America/Los_Angeles",
+  "models": ["openai/gpt-oss-120b", "llama-3.3-70b-versatile"],
+  "interests": [
+    "Reading books, both fiction and nonfiction",
+    "Crafts and making things by hand",
+    "Artificial intelligence: how it works, where it is going, what people are building",
+    "Understanding what is happening in the world",
+    "Getting better at coding by building one small project at a time",
+    "Ramping up at a new software job"
+  ],
+  "feeds": {
+    "world": [
+      { "source": "BBC", "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
+      { "source": "NPR", "url": "https://feeds.npr.org/1004/rss.xml" },
+      { "source": "The Guardian", "url": "https://www.theguardian.com/world/rss" }
+    ],
+    "ai": [
+      { "source": "MIT Technology Review", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed" },
+      { "source": "The Verge", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml" },
+      { "source": "Ars Technica", "url": "https://arstechnica.com/ai/feed/" },
+      { "source": "Hacker News", "url": "https://hnrss.org/frontpage?points=150" }
+    ]
+  },
+  "headlinesPerFeed": 8,
+  "historyDaysShown": 14
+}

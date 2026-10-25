@@ -1,0 +1,10 @@
+{
+  "name": "daily-picks",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "preview": "node src/build.mjs --mock"
+  }
+}
