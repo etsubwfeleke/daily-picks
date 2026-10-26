@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily picks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&display=swap">
+<style>
+:root {
+  --bg: #f6f3ee; --surface: #ffffff; --text: #1d2330; --text2: #4d5566; --text3: #7a8191;
+  --accent: #8a6a3f; --border: #e4ded4;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0b0f17; --surface: #141a26; --text: #e8e4dc; --text2: #aab0bd; --text3: #7d8494;
+    --accent: #c8a97e; --border: #232b3b; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 32px 16px 64px; }
+h1, h2 { font-family: "Newsreader", Georgia, serif; font-weight: 500; }
+h1 { font-size: 34px; line-height: 1.15; margin: 0; }
+.date { color: var(--accent); font-family: "Newsreader", Georgia, serif; font-size: 22px; margin: 2px 0 28px; }
+h2 { font-size: 13px; font-family: inherit; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--text3); margin: 32px 0 10px; font-weight: 600; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px; margin-bottom: 10px; }
+.card a { color: var(--text); text-decoration: none; font-weight: 600; }
+.card a:hover { text-decoration: underline; }
+.meta { color: var(--text3); font-size: 14px; margin-top: 2px; }
+.why { color: var(--text2); margin: 8px 0 0; }
+.book { display: flex; gap: 14px; align-items: flex-start; }
+.book img { width: 72px; border-radius: 6px; flex: none; }
+.empty { color: var(--text3); }
+nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+nav a { display: inline-block; padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px;
+  color: var(--text2); text-decoration: none; font-size: 14px; }
+nav a[aria-current] { color: var(--accent); border-color: var(--accent); }
+footer { color: var(--text3); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Monday</h1>
+  <div class="date">26 October</div>
+
+  <h2>Read today</h2>
+  <div class="card">
+  <a href="https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&amp;at_campaign=rss">Lula wins fourth term in dramatic Brazil election comeback</a>
+  <div class="meta">BBC</div>
+  <p class="why">It shows how Brazil’s left‑wing leader returned to power in a tightly contested election.</p>
+</div>
+<div class="card">
+  <a href="https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/">The Foundations of Scalable AI</a>
+  <div class="meta">MIT Technology Review</div>
+  <p class="why">It breaks down the essential building blocks needed for large‑scale AI systems.</p>
+</div>
+<div class="card">
+  <a href="https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details">Five weird details from Anthropic’s IPO filing</a>
+  <div class="meta">The Verge</div>
+  <p class="why">It uncovers surprising details from Anthropic’s S‑1 filing that affect the future of AI funding.</p>
+</div>
+
+  <h2>Your book</h2>
+  <div class="card book">
+  <img src="https://covers.openlibrary.org/b/id/9173899-M.jpg" alt="">
+  <div>
+    <a href="https://openlibrary.org/works/OL20006564W">The Effective Engineer</a>
+    <div class="meta">Edmond Lau, 2015</div>
+    <div class="meta">Since 25 October</div>
+    <p class="why">Practical advice on making impact fast in a new software role.</p>
+  </div>
+</div>
+
+  <h2>Try this</h2>
+  <div class="card">
+  <strong>Needle felting</strong>
+  <div class="meta">1 hour</div>
+  <p class="why">Gather some wool roving, a felting needle, and shape a simple cat figure using basic stitches this week.</p>
+</div>
+
+  <h2>Learn</h2>
+  <div class="card">
+  <strong>Weather CLI tool</strong>
+  <div class="meta">Coding</div>
+  <p class="why">Write a short Python script that calls a free weather API with requests and prints the current temperature for your city.</p>
+</div>
+
+  <h2>Earlier</h2>
+  <nav><ul><li><a href="../days/2026-10-26.html" aria-current="page">10-26</a></li><li><a href="../days/2026-10-25.html">10-25</a></li></ul></nav>
+
+  <footer>Picked by openai/gpt-oss-120b from the morning's headlines. Books checked against Open Library.</footer>
+</main>
+</body>
+</html>

@@ -45,5 +45,52 @@
       "topic": "command-line to-do list in Python",
       "do": "Create a script that can add, list, and delete tasks stored in a JSON file."
     }
+  },
+  {
+    "date": "2026-10-26",
+    "weekday": "Monday",
+    "longDate": "26 October",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Lula wins fourth term in dramatic Brazil election comeback",
+        "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "It shows how Brazil’s left‑wing leader returned to power in a tightly contested election."
+      },
+      {
+        "title": "The Foundations of Scalable AI",
+        "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+        "source": "MIT Technology Review",
+        "why": "It breaks down the essential building blocks needed for large‑scale AI systems."
+      },
+      {
+        "title": "Five weird details from Anthropic’s IPO filing",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
+        "source": "The Verge",
+        "why": "It uncovers surprising details from Anthropic’s S‑1 filing that affect the future of AI funding."
+      }
+    ],
+    "book": {
+      "title": "The Effective Engineer",
+      "author": "Edmond Lau",
+      "year": 2015,
+      "url": "https://openlibrary.org/works/OL20006564W",
+      "cover": "https://covers.openlibrary.org/b/id/9173899-M.jpg",
+      "why": "Practical advice on making impact fast in a new software role.",
+      "since": "2026-10-25",
+      "sinceLabel": "25 October",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "needle felting",
+      "try": "Gather some wool roving, a felting needle, and shape a simple cat figure using basic stitches this week.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "weather CLI tool",
+      "do": "Write a short Python script that calls a free weather API with requests and prints the current temperature for your city."
+    }
   }
 ]
