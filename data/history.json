@@ -92,5 +92,52 @@
       "topic": "weather CLI tool",
       "do": "Write a short Python script that calls a free weather API with requests and prints the current temperature for your city."
     }
+  },
+  {
+    "date": "2026-10-27",
+    "weekday": "Tuesday",
+    "longDate": "27 October",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Turnout so far highest on record as Israelis vote in pivotal election",
+        "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "It explains the stakes of Israel’s first post‑war election."
+      },
+      {
+        "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+        "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+        "source": "MIT Technology Review",
+        "why": "Shows how AI can boost manufacturing efficiency."
+      },
+      {
+        "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+        "source": "The Verge",
+        "why": "Illustrates practical AI that saves time while browsing."
+      }
+    ],
+    "book": {
+      "title": "The Effective Engineer",
+      "author": "Edmond Lau",
+      "year": 2015,
+      "url": "https://openlibrary.org/works/OL20006564W",
+      "cover": "https://covers.openlibrary.org/b/id/9173899-M.jpg",
+      "why": "Practical advice on making impact fast in a new software role.",
+      "since": "2026-10-25",
+      "sinceLabel": "25 October",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "polymer‑clay keychains",
+      "try": "Buy a small pack of polymer clay, condition it, roll a 1‑cm shape, add a hole for a key ring, then bake for 15 minutes.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "simple URL shortener with Flask",
+      "do": "Create a tiny Flask app that maps /s/abc to a full URL, run it locally and test with curl."
+    }
   }
 ]
