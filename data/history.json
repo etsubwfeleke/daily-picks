@@ -139,5 +139,52 @@
       "topic": "simple URL shortener with Flask",
       "do": "Create a tiny Flask app that maps /s/abc to a full URL, run it locally and test with curl."
     }
+  },
+  {
+    "date": "2026-10-28",
+    "weekday": "Wednesday",
+    "longDate": "28 October",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+        "url": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "It explains the current Israeli election dynamics that could reshape regional politics."
+      },
+      {
+        "title": "Pairing industrial AI autonomy and human control",
+        "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+        "source": "MIT Technology Review",
+        "why": "It examines how industrial AI can be combined with human control for safer automation."
+      },
+      {
+        "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+        "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+        "source": "The Verge",
+        "why": "It details a new autofill improvement that uses AI to speed up everyday form filling."
+      }
+    ],
+    "book": {
+      "title": "The Effective Engineer",
+      "author": "Edmond Lau",
+      "year": 2015,
+      "url": "https://openlibrary.org/works/OL20006564W",
+      "cover": "https://covers.openlibrary.org/b/id/9173899-M.jpg",
+      "why": "Practical advice on making impact fast in a new software role.",
+      "since": "2026-10-25",
+      "sinceLabel": "25 October",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "macramé wall hanging",
+      "try": "Buy a few meters of 3 mm cotton rope, cut eight 2‑foot lengths, learn the square knot and start a 12‑inch starter strip.",
+      "time": "2 hours"
+    },
+    "learn": {
+      "kind": "AI",
+      "topic": "prompt engineering basics",
+      "do": "Open a free text‑to‑image demo, write three prompts that vary in detail and style, generate the images, and note how the wording changes the results."
+    }
   }
 ]
