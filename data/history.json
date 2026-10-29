@@ -186,5 +186,52 @@
       "topic": "prompt engineering basics",
       "do": "Open a free text‑to‑image demo, write three prompts that vary in detail and style, generate the images, and note how the wording changes the results."
     }
+  },
+  {
+    "date": "2026-10-29",
+    "weekday": "Thursday",
+    "longDate": "29 October",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
+        "url": "https://www.bbc.co.uk/news/articles/cq5ynw94k7kzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "It shows how political pressure can shape anti‑corruption campaigns in China."
+      },
+      {
+        "title": "We urgently need to monitor AI agents’ actions in real time",
+        "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+        "source": "MIT Technology Review",
+        "why": "It explains recent AI agent breaches and why real‑time monitoring is critical."
+      },
+      {
+        "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+        "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+        "source": "The Verge",
+        "why": "It details Gemini 4 Carbon’s new security features that affect developers."
+      }
+    ],
+    "book": {
+      "title": "The Effective Engineer",
+      "author": "Edmond Lau",
+      "year": 2015,
+      "url": "https://openlibrary.org/works/OL20006564W",
+      "cover": "https://covers.openlibrary.org/b/id/9173899-M.jpg",
+      "why": "Practical advice on making impact fast in a new software role.",
+      "since": "2026-10-25",
+      "sinceLabel": "25 October",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "paper marbling",
+      "try": "Mix flour and water to make a viscous base, sprinkle drops of food‑color ink, then lay a sheet of paper on top to capture the pattern.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "JSON validator in JavaScript",
+      "do": "Write a short Node.js script that reads a file, parses it with JSON.parse, and prints whether it is valid or shows the error; run it on a sample file."
+    }
   }
 ]
