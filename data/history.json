@@ -233,5 +233,52 @@
       "topic": "JSON validator in JavaScript",
       "do": "Write a short Node.js script that reads a file, parses it with JSON.parse, and prints whether it is valid or shows the error; run it on a sample file."
     }
+  },
+  {
+    "date": "2026-10-30",
+    "weekday": "Friday",
+    "longDate": "30 October",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
+        "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "The cease‑fire evacuation shows the human impact of the Ukraine conflict"
+      },
+      {
+        "title": "What killed 500-plus penguins? How scientists solved the mystery",
+        "url": "https://www.npr.org/2026/10/29/nx-s1-6020451/avian-flu-penguins-pathogen-antarctica-cholera",
+        "source": "NPR",
+        "why": "Scientists explain the mass penguin deaths, a clear example of wildlife disease investigation"
+      },
+      {
+        "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+        "source": "The Verge",
+        "why": "Google Gemini now lets you edit Docs and PDFs directly in chat, a handy productivity boost"
+      }
+    ],
+    "book": {
+      "title": "The Effective Engineer",
+      "author": "Edmond Lau",
+      "year": 2015,
+      "url": "https://openlibrary.org/works/OL20006564W",
+      "cover": "https://covers.openlibrary.org/b/id/9173899-M.jpg",
+      "why": "Practical advice on making impact fast in a new software role.",
+      "since": "2026-10-25",
+      "sinceLabel": "25 October",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "DIY soy candle making",
+      "try": "Melt a cup of soy wax in a double boiler, add a few drops of fragrance, pour into a jar with a pre‑wicked cotton wick, let it set",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "Node.js URL shortener",
+      "do": "Run npm init, install express, write a server that stores short‑code → URL pairs in memory and redirects on GET /:code; test with curl"
+    }
   }
 ]
