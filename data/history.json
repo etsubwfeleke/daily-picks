@@ -280,5 +280,52 @@
       "topic": "Node.js URL shortener",
       "do": "Run npm init, install express, write a server that stores short‑code → URL pairs in memory and redirects on GET /:code; test with curl"
     }
+  },
+  {
+    "date": "2026-10-31",
+    "weekday": "Saturday",
+    "longDate": "31 October",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+        "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "It shows how families are reuniting after years of separation in a war zone"
+      },
+      {
+        "title": "Creating AI value with enterprise context",
+        "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+        "source": "MIT Technology Review",
+        "why": "It explains practical ways companies can weave AI into existing workflows"
+      },
+      {
+        "title": "The biggest names in AI are backing a new way to opt out of scraping",
+        "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+        "source": "The Verge",
+        "why": "It reveals a new industry standard that lets publishers block AI training data"
+      }
+    ],
+    "book": {
+      "title": "The Effective Engineer",
+      "author": "Edmond Lau",
+      "year": 2015,
+      "url": "https://openlibrary.org/works/OL20006564W",
+      "cover": "https://covers.openlibrary.org/b/id/9173899-M.jpg",
+      "why": "Practical advice on making impact fast in a new software role.",
+      "since": "2026-10-25",
+      "sinceLabel": "25 October",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "handmade felt coasters",
+      "try": "Cut two 4‑inch circles from a felt sheet, glue them together, and add a decorative edge with a contrasting color",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "Markdown previewer",
+      "do": "Create an HTML page with a textarea and use a lightweight JS library like marked.js to render the typed markdown in real time"
+    }
   }
 ]
