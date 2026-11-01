@@ -327,5 +327,52 @@
       "topic": "Markdown previewer",
       "do": "Create an HTML page with a textarea and use a lightweight JS library like marked.js to render the typed markdown in real time"
     }
+  },
+  {
+    "date": "2026-11-01",
+    "weekday": "Sunday",
+    "longDate": "1 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Shops looted as German cost-of-living protests turn violent",
+        "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Shows how cost‑of‑living stress can erupt into violent protests across major German cities"
+      },
+      {
+        "title": "Will the real Anthropic please stand up",
+        "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+        "source": "MIT Technology Review",
+        "why": "Explains Anthropic’s IPO filing and the risks it highlights for AI companies"
+      },
+      {
+        "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+        "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+        "source": "Ars Technica",
+        "why": "A cautionary case of a university leader losing his job over personal AI use, relevant for ethical AI discussions"
+      }
+    ],
+    "book": {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL17075811W",
+      "cover": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
+      "why": "A sweeping look at human evolution and societies, good for broad context on the world",
+      "since": "2026-11-01",
+      "sinceLabel": "1 November",
+      "isNew": true
+    },
+    "hobby": {
+      "name": "Paper origami jewelry",
+      "try": "Fold a simple origami pendant from a square sheet and attach a jump‑ring to wear it",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "tiny Todo CLI in Go",
+      "do": "Create a Go program that adds, lists, and removes tasks stored in a local JSON file; run it from the terminal"
+    }
   }
 ]
