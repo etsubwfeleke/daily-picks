@@ -374,5 +374,52 @@
       "topic": "tiny Todo CLI in Go",
       "do": "Create a Go program that adds, lists, and removes tasks stored in a local JSON file; run it from the terminal"
     }
+  },
+  {
+    "date": "2026-11-02",
+    "weekday": "Monday",
+    "longDate": "2 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+        "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "The cease‑fire in Kherson shows how fragile peace can be and what the next steps might mean for civilians"
+      },
+      {
+        "title": "Raising the quality of insights in agentic analytics",
+        "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+        "source": "MIT Technology Review",
+        "why": "Agentic analytics illustrate how generative AI is moving from insight to action in enterprises"
+      },
+      {
+        "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+        "source": "The Verge",
+        "why": "OpenAI’s Grid Protectors program shows a practical way data centers can help communities during emergencies"
+      }
+    ],
+    "book": {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL17075811W",
+      "cover": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
+      "why": "A sweeping look at human evolution and societies, good for broad context on the world",
+      "since": "2026-11-01",
+      "sinceLabel": "1 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "paper bead jewelry",
+      "try": "Cut strips of colorful paper, roll them into beads, and string them on a thin cord to make a simple bracelet",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "news CLI script",
+      "do": "Create a short Python script that requests the latest headlines from a free news API and prints each title with its index"
+    }
   }
 ]
