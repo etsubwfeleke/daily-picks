@@ -468,5 +468,52 @@
       "topic": "Python file lister",
       "do": "Create a short script that uses os.listdir to print each file name and size in a formatted table; run it in the terminal to verify output."
     }
+  },
+  {
+    "date": "2026-11-04",
+    "weekday": "Wednesday",
+    "longDate": "4 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+        "url": "https://www.bbc.co.uk/news/articles/c98rz6penv86o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Shows how cyber‑evidence can reveal the tactics behind attacks, giving insight into the conflict."
+      },
+      {
+        "title": "The world is reacting to the Democrats' sweeping midterm elections victory",
+        "url": "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections",
+        "source": "NPR",
+        "why": "Summarises global reactions to the U.S. midterms, highlighting how the shift may affect international policy."
+      },
+      {
+        "title": "Securing the agentic enterprise with data lineage",
+        "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+        "source": "MIT Technology Review",
+        "why": "Explains why tracking data lineage is crucial for trustworthy AI agents in enterprise settings."
+      }
+    ],
+    "book": {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL17075811W",
+      "cover": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
+      "why": "A sweeping look at human evolution and societies, good for broad context on the world",
+      "since": "2026-11-01",
+      "sinceLabel": "1 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "embroidery",
+      "try": "Buy a beginner embroidery kit and stitch a simple flower pattern onto a cotton tote bag.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "CSV book sorter",
+      "do": "Write a short Python script that reads a CSV of book titles and authors, sorts the entries alphabetically, and prints the list."
+    }
   }
 ]
