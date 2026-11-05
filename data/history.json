@@ -515,5 +515,52 @@
       "topic": "CSV book sorter",
       "do": "Write a short Python script that reads a CSV of book titles and authors, sorts the entries alphabetically, and prints the list."
     }
+  },
+  {
+    "date": "2026-11-05",
+    "weekday": "Thursday",
+    "longDate": "5 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "French protests see numbers surge as unions join strikes over high cost of living",
+        "url": "https://www.bbc.co.uk/news/articles/ckx2qzv835pgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "French protests over cost of living show how economic pressure fuels large‑scale unrest"
+      },
+      {
+        "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+        "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+        "source": "MIT Technology Review",
+        "why": "The piece explains the new “Super Intelligence” loyalty test and its implications for AI governance"
+      },
+      {
+        "title": "Muse has a voice mode now",
+        "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+        "source": "The Verge",
+        "why": "Muse’s new voice mode illustrates how conversational AI is becoming more interactive"
+      }
+    ],
+    "book": {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL17075811W",
+      "cover": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
+      "why": "A sweeping look at human evolution and societies, good for broad context on the world",
+      "since": "2026-11-01",
+      "sinceLabel": "1 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "recycled wax candle making",
+      "try": "Melt leftover candle wax, add a few drops of essential oil, pour into a small jar with a wick and let it set",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "simple URL shortener in Python",
+      "do": "Write a script that reads a URL, creates a short base‑62 token, stores it in a dictionary, and prints the short link"
+    }
   }
 ]
