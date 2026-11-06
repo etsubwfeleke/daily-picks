@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily picks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&display=swap">
+<style>
+:root {
+  --bg: #f6f3ee; --surface: #ffffff; --text: #1d2330; --text2: #4d5566; --text3: #7a8191;
+  --accent: #8a6a3f; --border: #e4ded4;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0b0f17; --surface: #141a26; --text: #e8e4dc; --text2: #aab0bd; --text3: #7d8494;
+    --accent: #c8a97e; --border: #232b3b; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 32px 16px 64px; }
+h1, h2 { font-family: "Newsreader", Georgia, serif; font-weight: 500; }
+h1 { font-size: 34px; line-height: 1.15; margin: 0; }
+.date { color: var(--accent); font-family: "Newsreader", Georgia, serif; font-size: 22px; margin: 2px 0 28px; }
+h2 { font-size: 13px; font-family: inherit; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--text3); margin: 32px 0 10px; font-weight: 600; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 16px; margin-bottom: 10px; }
+.card a { color: var(--text); text-decoration: none; font-weight: 600; }
+.card a:hover { text-decoration: underline; }
+.meta { color: var(--text3); font-size: 14px; margin-top: 2px; }
+.why { color: var(--text2); margin: 8px 0 0; }
+.book { display: flex; gap: 14px; align-items: flex-start; }
+.book img { width: 72px; border-radius: 6px; flex: none; }
+.empty { color: var(--text3); }
+nav ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+nav a { display: inline-block; padding: 6px 12px; border: 1px solid var(--border); border-radius: 999px;
+  color: var(--text2); text-decoration: none; font-size: 14px; }
+nav a[aria-current] { color: var(--accent); border-color: var(--accent); }
+footer { color: var(--text3); font-size: 13px; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Friday</h1>
+  <div class="date">6 November</div>
+
+  <h2>Read today</h2>
+  <div class="card">
+  <a href="https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&amp;at_campaign=rss">Pope begins lengthy trip to Latin America weeks after lung cancer surgery</a>
+  <div class="meta">BBC</div>
+  <p class="why">The Pope’s Latin America trip shows how religious leaders engage with public health after serious illness.</p>
+</div>
+<div class="card">
+  <a href="https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction">What&#39;s next for Democrats after the midterms. And, a look at the outstanding races</a>
+  <div class="meta">NPR</div>
+  <p class="why">A clear overview of the Democratic Party’s direction after the recent midterms helps frame current political trends.</p>
+</div>
+<div class="card">
+  <a href="https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/">Stop counting tokens, start counting what ships</a>
+  <div class="meta">MIT Technology Review</div>
+  <p class="why">The piece explains why token counts mislead when evaluating AI agents that generate and test code.</p>
+</div>
+
+  <h2>Your book</h2>
+  <div class="card book">
+  <img src="https://covers.openlibrary.org/b/id/8634250-M.jpg" alt="">
+  <div>
+    <a href="https://openlibrary.org/works/OL17075811W">Sapiens: A Brief History of Humankind</a>
+    <div class="meta">Yuval Noah Harari, 2011</div>
+    <div class="meta">Since 1 November</div>
+    <p class="why">A sweeping look at human evolution and societies, good for broad context on the world.</p>
+  </div>
+</div>
+
+  <h2>Try this</h2>
+  <div class="card">
+  <strong>Paper mâché bowls</strong>
+  <div class="meta">2 hours</div>
+  <p class="why">Collect newspaper strips, mix flour and water glue, inflate a small balloon, cover it with layers of paper mâché, let dry, then pop the balloon and sand the bowl.</p>
+</div>
+
+  <h2>Learn</h2>
+  <div class="card">
+  <strong>Tiny static site generator</strong>
+  <div class="meta">Coding</div>
+  <p class="why">Create a Python script that reads .md files from a folder, converts each to simple HTML using markdown2, and writes the results to an output directory.</p>
+</div>
+
+  <h2>Earlier</h2>
+  <nav><ul><li><a href="../days/2026-11-06.html" aria-current="page">11-06</a></li><li><a href="../days/2026-11-05.html">11-05</a></li><li><a href="../days/2026-11-04.html">11-04</a></li><li><a href="../days/2026-11-03.html">11-03</a></li><li><a href="../days/2026-11-02.html">11-02</a></li><li><a href="../days/2026-11-01.html">11-01</a></li><li><a href="../days/2026-10-31.html">10-31</a></li><li><a href="../days/2026-10-30.html">10-30</a></li><li><a href="../days/2026-10-29.html">10-29</a></li><li><a href="../days/2026-10-28.html">10-28</a></li><li><a href="../days/2026-10-27.html">10-27</a></li><li><a href="../days/2026-10-26.html">10-26</a></li><li><a href="../days/2026-10-25.html">10-25</a></li></ul></nav>
+
+  <footer>Picked by openai/gpt-oss-120b from the morning's headlines. Books checked against Open Library.</footer>
+</main>
+</body>
+</html>

@@ -562,5 +562,52 @@
       "topic": "simple URL shortener in Python",
       "do": "Write a script that reads a URL, creates a short base‑62 token, stores it in a dictionary, and prints the short link"
     }
+  },
+  {
+    "date": "2026-11-06",
+    "weekday": "Friday",
+    "longDate": "6 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+        "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "The Pope’s Latin America trip shows how religious leaders engage with public health after serious illness"
+      },
+      {
+        "title": "What's next for Democrats after the midterms. And, a look at the outstanding races",
+        "url": "https://www.npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction",
+        "source": "NPR",
+        "why": "A clear overview of the Democratic Party’s direction after the recent midterms helps frame current political trends"
+      },
+      {
+        "title": "Stop counting tokens, start counting what ships",
+        "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+        "source": "MIT Technology Review",
+        "why": "The piece explains why token counts mislead when evaluating AI agents that generate and test code"
+      }
+    ],
+    "book": {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL17075811W",
+      "cover": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
+      "why": "A sweeping look at human evolution and societies, good for broad context on the world",
+      "since": "2026-11-01",
+      "sinceLabel": "1 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "paper mâché bowls",
+      "try": "Collect newspaper strips, mix flour and water glue, inflate a small balloon, cover it with layers of paper mâché, let dry, then pop the balloon and sand the bowl",
+      "time": "2 hours"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "tiny static site generator",
+      "do": "Create a Python script that reads .md files from a folder, converts each to simple HTML using markdown2, and writes the results to an output directory"
+    }
   }
 ]
