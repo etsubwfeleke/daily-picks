@@ -609,5 +609,52 @@
       "topic": "tiny static site generator",
       "do": "Create a Python script that reads .md files from a folder, converts each to simple HTML using markdown2, and writes the results to an output directory"
     }
+  },
+  {
+    "date": "2026-11-07",
+    "weekday": "Saturday",
+    "longDate": "7 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "No clear winner after tight New Zealand general election",
+        "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "It shows how coalition talks shape a divided parliament"
+      },
+      {
+        "title": "Israel's Arab-led parties in spotlight after inconclusive election",
+        "url": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
+        "source": "NPR",
+        "why": "It explains the political balance affecting Netanyahu's future"
+      },
+      {
+        "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+        "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+        "source": "MIT Technology Review",
+        "why": "It gives a concrete view of how robots are entering homes"
+      }
+    ],
+    "book": {
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL17075811W",
+      "cover": "https://covers.openlibrary.org/b/id/8634250-M.jpg",
+      "why": "A sweeping look at human evolution and societies, good for broad context on the world",
+      "since": "2026-11-01",
+      "sinceLabel": "1 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "air-dry clay pottery",
+      "try": "Buy a small pack of air‑dry clay, roll a 2‑inch ball, shape it into a simple cup, let it dry for a few hours.",
+      "time": "2 hours"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "RSS feed parser",
+      "do": "Install feedparser, write a Python script that fetches an RSS URL, loops over entries and prints each title; run it."
+    }
   }
 ]
