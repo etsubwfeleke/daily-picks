@@ -703,5 +703,52 @@
       "topic": "Python unit testing with pytest",
       "do": "Write a simple factorial function in a file, create a test_factorial.py with two pytest cases, and run pytest to see the results."
     }
+  },
+  {
+    "date": "2026-11-09",
+    "weekday": "Monday",
+    "longDate": "9 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "France accuses Iran of supermarket fridge hacking",
+        "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Shows how cyber‑physical attacks can affect everyday supplies."
+      },
+      {
+        "title": "The backlash about data centers might really just be about electricity",
+        "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+        "source": "MIT Technology Review",
+        "why": "Explains why AI data centers raise electricity concerns, relevant for tech policy."
+      },
+      {
+        "title": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+        "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+        "source": "NPR",
+        "why": "Highlights a high‑profile legal case that reflects broader cultural issues."
+      }
+    ],
+    "book": {
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "year": 2000,
+      "url": "https://openlibrary.org/works/OL17116910W",
+      "cover": "https://covers.openlibrary.org/b/id/8314147-M.jpg",
+      "why": "A moving novel set in occupied France that offers both emotional depth and historical context.",
+      "since": "2026-11-08",
+      "sinceLabel": "8 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "handmade soap",
+      "try": "Melt a small glycerin soap base, stir in a few drops of your favorite essential oil, and pour into a silicone mold; let it set.",
+      "time": "2 hours"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "simple URL shortener with Flask",
+      "do": "Create a minimal Flask app that maps /<code> to a full URL stored in a dictionary, run it locally and test one short link."
+    }
   }
 ]
