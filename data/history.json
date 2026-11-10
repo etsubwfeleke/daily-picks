@@ -750,5 +750,52 @@
       "topic": "simple URL shortener with Flask",
       "do": "Create a minimal Flask app that maps /<code> to a full URL stored in a dictionary, run it locally and test one short link."
     }
+  },
+  {
+    "date": "2026-11-10",
+    "weekday": "Tuesday",
+    "longDate": "10 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "First day of Ukraine peace talks constructive, Zelensky says",
+        "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "First trilateral Ukraine peace talks show a rare chance for progress"
+      },
+      {
+        "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+        "source": "The Verge",
+        "why": "Gemini 4 Carbon adds an agent swarm feature that expands AI capabilities"
+      },
+      {
+        "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+        "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+        "source": "MIT Technology Review",
+        "why": "New California senator may shape upcoming AI regulation"
+      }
+    ],
+    "book": {
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "year": 2000,
+      "url": "https://openlibrary.org/works/OL17116910W",
+      "cover": "https://covers.openlibrary.org/b/id/8314147-M.jpg",
+      "why": "A moving novel set in occupied France that offers both emotional depth and historical context.",
+      "since": "2026-11-08",
+      "sinceLabel": "8 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "DIY felt bookmarks",
+      "try": "Cut small felt rectangles, stitch a simple loop on one end, and add a decorative bead if you have one",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "random quote generator",
+      "do": "Write a short Python script that reads quotes from a text file and prints one at random when run"
+    }
   }
 ]
