@@ -797,5 +797,52 @@
       "topic": "random quote generator",
       "do": "Write a short Python script that reads quotes from a text file and prints one at random when run"
     }
+  },
+  {
+    "date": "2026-11-11",
+    "weekday": "Wednesday",
+    "longDate": "11 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Spain sees widespread disruption in first general strike for 14 years",
+        "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Spain’s first general strike in 14 years shows how housing costs are reshaping politics"
+      },
+      {
+        "title": "Innovating with AI in the special chemicals industry",
+        "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+        "source": "MIT Technology Review",
+        "why": "Shows how AI can accelerate chemical innovation while highlighting data and expertise challenges"
+      },
+      {
+        "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+        "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+        "source": "The Verge",
+        "why": "Google’s Tabletop AI experiment illustrates practical ways to create custom collaborative tools without coding"
+      }
+    ],
+    "book": {
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "year": 2000,
+      "url": "https://openlibrary.org/works/OL17116910W",
+      "cover": "https://covers.openlibrary.org/b/id/8314147-M.jpg",
+      "why": "A moving novel set in occupied France that offers both emotional depth and historical context.",
+      "since": "2026-11-08",
+      "sinceLabel": "8 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "simple wooden birdhouse",
+      "try": "Cut a small birdhouse from a pine board using a handsaw, assemble with wood glue, and sand rough edges",
+      "time": "2 hours"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "habit‑tracker CLI in Python",
+      "do": "Write a Python script that reads a text file of habits and prints how many times each was marked done today"
+    }
   }
 ]
