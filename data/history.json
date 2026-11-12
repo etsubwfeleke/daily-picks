@@ -844,5 +844,52 @@
       "topic": "habit‑tracker CLI in Python",
       "do": "Write a Python script that reads a text file of habits and prints how many times each was marked done today"
     }
+  },
+  {
+    "date": "2026-11-12",
+    "weekday": "Thursday",
+    "longDate": "12 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+        "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "It shows how diplomatic talks are shaping the Ukraine conflict."
+      },
+      {
+        "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+        "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+        "source": "MIT Technology Review",
+        "why": "It explains why Texas’s AI data‑center boom may be faltering, with implications for the industry."
+      },
+      {
+        "title": "Indonesia's VP resigns as his eligibility and academic credentials are questioned",
+        "url": "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned",
+        "source": "NPR",
+        "why": "It details Indonesia’s vice‑president resignation and its political fallout."
+      }
+    ],
+    "book": {
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "year": 2000,
+      "url": "https://openlibrary.org/works/OL17116910W",
+      "cover": "https://covers.openlibrary.org/b/id/8314147-M.jpg",
+      "why": "A moving novel set in occupied France that offers both emotional depth and historical context.",
+      "since": "2026-11-08",
+      "sinceLabel": "8 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "painted rocks",
+      "try": "Buy a few smooth river stones, a set of acrylic paints, and a small brush; sketch a simple design and paint it this weekend.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "tiny CLI todo in Python",
+      "do": "Create a new Python file, write a list variable and simple add/list/remove functions, then run a few commands to test."
+    }
   }
 ]
