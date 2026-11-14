@@ -938,5 +938,52 @@
       "topic": "command-line note taker in Python",
       "do": "Write a short Python script that reads a JSON file, lets you add a note with a title, lists all notes, and saves back to the file."
     }
+  },
+  {
+    "date": "2026-11-14",
+    "weekday": "Saturday",
+    "longDate": "14 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "What we know about the ground stop and what to do if you're affected",
+        "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Explains the recent US air traffic ground stop and why it wasn’t a cyber attack."
+      },
+      {
+        "title": "Fuel crisis and protests pressure Chile's far-right president",
+        "url": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
+        "source": "NPR",
+        "why": "Shows how Chile’s fuel price protests are affecting the political climate."
+      },
+      {
+        "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+        "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+        "source": "The Verge",
+        "why": "Discusses concerns about AI leadership trust after the OpenAI board’s decision."
+      }
+    ],
+    "book": {
+      "title": "The Nightingale",
+      "author": "Kristin Hannah",
+      "year": 2000,
+      "url": "https://openlibrary.org/works/OL17116910W",
+      "cover": "https://covers.openlibrary.org/b/id/8314147-M.jpg",
+      "why": "A moving novel set in occupied France that offers both emotional depth and historical context.",
+      "since": "2026-11-08",
+      "sinceLabel": "8 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "tea‑dyed fabric napkins",
+      "try": "Boil water with a handful of tea bags, soak plain cotton napkins for 15 minutes, then hang to dry.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "Flask hello endpoint",
+      "do": "Write a minimal Flask app that returns {\"msg\":\"hello\"} at /hello and run it locally."
+    }
   }
 ]
