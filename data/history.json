@@ -985,5 +985,52 @@
       "topic": "Flask hello endpoint",
       "do": "Write a minimal Flask app that returns {\"msg\":\"hello\"} at /hello and run it locally."
     }
+  },
+  {
+    "date": "2026-11-15",
+    "weekday": "Sunday",
+    "longDate": "15 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+        "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Zelensky’s plea shows how tech access can affect the war and geopolitics"
+      },
+      {
+        "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+        "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+        "source": "MIT Technology Review",
+        "why": "Nvidia’s chip‑tracking plan reveals practical AI‑driven security measures"
+      },
+      {
+        "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "source": "The Verge",
+        "why": "ChatGPT Wallet shows how AI agents are moving toward autonomous transactions"
+      }
+    ],
+    "book": {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "url": "https://openlibrary.org/works/OL17618370W",
+      "cover": "https://covers.openlibrary.org/b/id/8065615-M.jpg",
+      "why": "Practical guidance for writing readable, maintainable code, essential for a new software role",
+      "since": "2026-11-15",
+      "sinceLabel": "15 November",
+      "isNew": true
+    },
+    "hobby": {
+      "name": "string art",
+      "try": "Buy thin craft wire and a small wooden board, sketch a simple shape, hammer nails around the outline, then wrap the wire to follow the pattern",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "tiny URL shortener in Rust",
+      "do": "Install Rust, run cargo new urlshort, code a function that generates a 6‑character key, store mappings in a HashMap, and test with a couple of URLs"
+    }
   }
 ]
