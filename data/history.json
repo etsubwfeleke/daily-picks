@@ -1032,5 +1032,52 @@
       "topic": "tiny URL shortener in Rust",
       "do": "Install Rust, run cargo new urlshort, code a function that generates a 6‑character key, store mappings in a HashMap, and test with a couple of URLs"
     }
+  },
+  {
+    "date": "2026-11-16",
+    "weekday": "Monday",
+    "longDate": "16 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Five EU countries announce migrant deportation centre in Rwanda",
+        "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Shows how EU states are handling migration policy and its ethical implications."
+      },
+      {
+        "title": "U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow",
+        "url": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
+        "source": "NPR",
+        "why": "Explores the emerging debate on autonomous weapons and global security."
+      },
+      {
+        "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+        "source": "The Verge",
+        "why": "Sam Altman’s push for more RAM highlights the hardware needs behind modern AI development."
+      }
+    ],
+    "book": {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "url": "https://openlibrary.org/works/OL17618370W",
+      "cover": "https://covers.openlibrary.org/b/id/8065615-M.jpg",
+      "why": "Practical guidance for writing readable, maintainable code, essential for a new software role",
+      "since": "2026-11-15",
+      "sinceLabel": "15 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "handcrafted paper beads",
+      "try": "Cut strips of colored paper, roll them around a toothpick, and glue the ends; make a short necklace this week.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "weather CLI in Python",
+      "do": "Write a Python script that calls OpenWeatherMap’s free API and prints the current temperature for your city."
+    }
   }
 ]
