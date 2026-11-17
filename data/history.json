@@ -1079,5 +1079,52 @@
       "topic": "weather CLI in Python",
       "do": "Write a Python script that calls OpenWeatherMap’s free API and prints the current temperature for your city."
     }
+  },
+  {
+    "date": "2026-11-17",
+    "weekday": "Tuesday",
+    "longDate": "17 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+        "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "The bridge collapse shows how the war is affecting critical infrastructure and offers insight into the conflict's escalation."
+      },
+      {
+        "title": "Building trustworthy AI by fencing it in, not predicting it",
+        "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+        "source": "MIT Technology Review",
+        "why": "It explains a practical approach to keeping AI systems safe by limiting their scope, a key issue for trustworthy AI."
+      },
+      {
+        "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+        "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+        "source": "The Verge",
+        "why": "Google rebrands its Spark AI agent as Tasks, making a free, everyday AI assistant that could be useful for personal productivity."
+      }
+    ],
+    "book": {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "url": "https://openlibrary.org/works/OL17618370W",
+      "cover": "https://covers.openlibrary.org/b/id/8065615-M.jpg",
+      "why": "Practical guidance for writing readable, maintainable code, essential for a new software role",
+      "since": "2026-11-15",
+      "sinceLabel": "15 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "paper weaving",
+      "try": "Cut 1‑inch strips from scrap paper and set up a simple cardboard loom; spend the week weaving a small wall hanging.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "command-line flashcard app (Python)",
+      "do": "Write a Python script that reads a JSON file of Q&A pairs, picks a random card, prompts for an answer, then shows the correct response."
+    }
   }
 ]
