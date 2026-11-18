@@ -1126,5 +1126,52 @@
       "topic": "command-line flashcard app (Python)",
       "do": "Write a Python script that reads a JSON file of Q&A pairs, picks a random card, prompts for an answer, then shows the correct response."
     }
+  },
+  {
+    "date": "2026-11-18",
+    "weekday": "Wednesday",
+    "longDate": "18 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+        "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Shows how the war in Ukraine is moving underground and why it matters"
+      },
+      {
+        "title": "The AI Hype Index: AI is everywhere",
+        "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+        "source": "MIT Technology Review",
+        "why": "Explains how AI is becoming pervasive and the risks of hype"
+      },
+      {
+        "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+        "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+        "source": "Ars Technica",
+        "why": "Shows how AI assistants are reshaping everyday software tools"
+      }
+    ],
+    "book": {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "url": "https://openlibrary.org/works/OL17618370W",
+      "cover": "https://covers.openlibrary.org/b/id/8065615-M.jpg",
+      "why": "Practical guidance for writing readable, maintainable code, essential for a new software role",
+      "since": "2026-11-15",
+      "sinceLabel": "15 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "hand‑crafted wooden coasters",
+      "try": "Cut three 4‑inch circles from scrap wood, sand the edges, and apply a simple oil finish",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "personal expense tracker CLI (Rust)",
+      "do": "Create a new Cargo project, define a struct for expenses, and write a command that adds a new expense entry to a CSV file"
+    }
   }
 ]
