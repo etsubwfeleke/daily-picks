@@ -1173,5 +1173,52 @@
       "topic": "personal expense tracker CLI (Rust)",
       "do": "Create a new Cargo project, define a struct for expenses, and write a command that adds a new expense entry to a CSV file"
     }
+  },
+  {
+    "date": "2026-11-19",
+    "weekday": "Thursday",
+    "longDate": "19 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+        "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "The ICJ ruling on Myanmar highlights severe human rights violations and sets a legal precedent."
+      },
+      {
+        "title": "This smell startup says its AI nose is as good as a human’s",
+        "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+        "source": "MIT Technology Review",
+        "why": "The AI nose startup shows how machine learning can replicate a sense humans rarely digitize."
+      },
+      {
+        "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
+        "url": "https://www.npr.org/2026/11/19/nx-s1-6044206/irans-attacks-on-ships-in-the-strait-of-hormuz-escalate",
+        "source": "NPR",
+        "why": "Iran’s recent attacks on shipping illustrate rising geopolitical tensions in the Strait of Hormuz."
+      }
+    ],
+    "book": {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "url": "https://openlibrary.org/works/OL17618370W",
+      "cover": "https://covers.openlibrary.org/b/id/8065615-M.jpg",
+      "why": "Practical guidance for writing readable, maintainable code, essential for a new software role",
+      "since": "2026-11-15",
+      "sinceLabel": "15 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "resin coasters",
+      "try": "Buy clear epoxy resin, a silicone coaster mold, and a pigment; mix and pour the resin into the mold, then let it cure.",
+      "time": "2 hours"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "static site starter",
+      "do": "Create an index.html with a heading and paragraph, add a style.css to set fonts and colors, and open both in a browser."
+    }
   }
 ]
