@@ -1220,5 +1220,52 @@
       "topic": "static site starter",
       "do": "Create an index.html with a heading and paragraph, add a style.css to set fonts and colors, and open both in a browser."
     }
+  },
+  {
+    "date": "2026-11-20",
+    "weekday": "Friday",
+    "longDate": "20 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+        "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "The UK‑EU deal shows how policy can affect trade and emissions systems"
+      },
+      {
+        "title": "The most misunderstood graph in AI just got a major update",
+        "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+        "source": "MIT Technology Review",
+        "why": "The updated AI graph highlights where models still lag, especially in judgment tasks"
+      },
+      {
+        "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+        "source": "The Verge",
+        "why": "Signal’s block on AI screen reads raises privacy concerns for mobile users"
+      }
+    ],
+    "book": {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "url": "https://openlibrary.org/works/OL17618370W",
+      "cover": "https://covers.openlibrary.org/b/id/8065615-M.jpg",
+      "why": "Practical guidance for writing readable, maintainable code, essential for a new software role",
+      "since": "2026-11-15",
+      "sinceLabel": "15 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "hand‑crafted wooden picture frame",
+      "try": "Cut a small piece of scrap pine, sand the edges, glue a simple frame shape together, and finish with a clear coat",
+      "time": "2 hours"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "currency converter CLI",
+      "do": "Write a Python script that reads an amount and currency code, calls a free exchange‑rate API, and prints the converted total"
+    }
   }
 ]
