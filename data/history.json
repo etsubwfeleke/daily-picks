@@ -1267,5 +1267,52 @@
       "topic": "currency converter CLI",
       "do": "Write a Python script that reads an amount and currency code, calls a free exchange‑rate API, and prints the converted total"
     }
+  },
+  {
+    "date": "2026-11-21",
+    "weekday": "Saturday",
+    "longDate": "21 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+        "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Shows how Ukraine is responding to Russian attacks and the geopolitical stakes."
+      },
+      {
+        "title": "Can Anthropic afford to put safety first?",
+        "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+        "source": "The Verge",
+        "why": "Discusses the balance between AI safety and growth at a major AI lab."
+      },
+      {
+        "title": "Building AI that can work across the enterprise",
+        "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+        "source": "MIT Technology Review",
+        "why": "Explores how enterprises are moving from isolated AI pilots to integrated agents."
+      }
+    ],
+    "book": {
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "year": 2008,
+      "url": "https://openlibrary.org/works/OL17618370W",
+      "cover": "https://covers.openlibrary.org/b/id/8065615-M.jpg",
+      "why": "Practical guidance for writing readable, maintainable code, essential for a new software role",
+      "since": "2026-11-15",
+      "sinceLabel": "15 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "upcycled tin can wind chime",
+      "try": "Collect a few clean tin cans, drill holes near the rims, thread string through and attach small metal beads to create chimes.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "basic HTTP server in Python",
+      "do": "Write a short script using Python's http.server module, run it locally, and test it with a browser."
+    }
   }
 ]
