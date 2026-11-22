@@ -1314,5 +1314,52 @@
       "topic": "basic HTTP server in Python",
       "do": "Write a short script using Python's http.server module, run it locally, and test it with a browser."
     }
+  },
+  {
+    "date": "2026-11-22",
+    "weekday": "Sunday",
+    "longDate": "22 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+        "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Shows how drone warfare is affecting global shipping and geopolitics."
+      },
+      {
+        "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+        "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+        "source": "Ars Technica",
+        "why": "Highlights the environmental impact of AI data centers and corporate sustainability decisions."
+      },
+      {
+        "title": "The UN fails to agree on rules regulating ‘killer robots’",
+        "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+        "source": "The Verge",
+        "why": "Explains current challenges in regulating autonomous weapons at the UN."
+      }
+    ],
+    "book": {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL15992072W",
+      "cover": "https://covers.openlibrary.org/b/id/13290711-M.jpg",
+      "why": "Offers insight into human decision making, useful for product design and personal productivity.",
+      "since": "2026-11-22",
+      "sinceLabel": "22 November",
+      "isNew": true
+    },
+    "hobby": {
+      "name": "macramé plant hanger",
+      "try": "Buy a 3 mm cotton rope, learn the square knot, and start a simple hanger for a small pot.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "Flask date endpoint",
+      "do": "Create a new folder, pip install Flask, write a short app with a ‘/today’ route that returns today’s date as JSON, and run it locally."
+    }
   }
 ]
