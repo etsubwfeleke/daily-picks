@@ -1361,5 +1361,52 @@
       "topic": "Flask date endpoint",
       "do": "Create a new folder, pip install Flask, write a short app with a ‘/today’ route that returns today’s date as JSON, and run it locally."
     }
+  },
+  {
+    "date": "2026-11-23",
+    "weekday": "Monday",
+    "longDate": "23 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "India pledges $1.6bn to Nepal in reset of ties",
+        "url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Shows how regional cooperation can boost disaster recovery and infrastructure"
+      },
+      {
+        "title": "Claude AI can review pull requests and ship fixes on its own now",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+        "source": "The Verge",
+        "why": "Demonstrates how AI can automate code review and speed up pull‑request handling"
+      },
+      {
+        "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+        "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+        "source": "MIT Technology Review",
+        "why": "Explores philosophical debate about AI consciousness, useful for understanding future risks"
+      }
+    ],
+    "book": {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL15992072W",
+      "cover": "https://covers.openlibrary.org/b/id/13290711-M.jpg",
+      "why": "Offers insight into human decision making, useful for product design and personal productivity.",
+      "since": "2026-11-22",
+      "sinceLabel": "22 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "pressed‑flower cork coasters",
+      "try": "Cut a 2‑inch cork tile, arrange dried flowers, glue with clear craft glue, let dry 2‑3 hours",
+      "time": "2 hours"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "static personal homepage",
+      "do": "Create an index.html with a brief intro, add a style.css, push to a new GitHub repo and enable GitHub Pages"
+    }
   }
 ]
