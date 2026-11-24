@@ -1408,5 +1408,52 @@
       "topic": "static personal homepage",
       "do": "Create an index.html with a brief intro, add a style.css, push to a new GitHub repo and enable GitHub Pages"
     }
+  },
+  {
+    "date": "2026-11-24",
+    "weekday": "Tuesday",
+    "longDate": "24 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "US attorney general dodges questions about Nvidia investigation",
+        "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Nvidia’s legal scrutiny shows how tech companies can become political flashpoints."
+      },
+      {
+        "title": "Fighting between Russia and Ukraine has expanded geographically, drawing concerns",
+        "url": "https://www.npr.org/2026/11/24/nx-s1-6051564/fighting-between-russia-and-ukraine-has-expanded-geographically-drawing-concerns",
+        "source": "NPR",
+        "why": "The expanding Ukraine‑Russia conflict illustrates the shifting geography of modern warfare."
+      },
+      {
+        "title": "Raising the stakes for enterprise networks with AI modernization",
+        "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+        "source": "MIT Technology Review",
+        "why": "Enterprise networks are under pressure from AI workloads, highlighting infrastructure challenges for engineers."
+      }
+    ],
+    "book": {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL15992072W",
+      "cover": "https://covers.openlibrary.org/b/id/13290711-M.jpg",
+      "why": "Offers insight into human decision making, useful for product design and personal productivity.",
+      "since": "2026-11-22",
+      "sinceLabel": "22 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "DIY fabric coasters",
+      "try": "Cut two layers of cotton fabric, stitch a square, add a layer of batting, and apply a waterproof seal.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "command‑line to‑do list in Python",
+      "do": "Create a new Git repo, write a script that adds, lists, and removes tasks stored in a JSON file, and run it with a few sample items."
+    }
   }
 ]
