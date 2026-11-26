@@ -1502,5 +1502,52 @@
       "topic": "Markdown to HTML converter",
       "do": "Install the Python markdown package, write a script that reads a .md file and prints basic HTML, then run it on a sample file"
     }
+  },
+  {
+    "date": "2026-11-26",
+    "weekday": "Thursday",
+    "longDate": "26 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
+        "url": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Severe US storms are disrupting Thanksgiving travel and causing flooding"
+      },
+      {
+        "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+        "url": "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+        "source": "The Verge",
+        "why": "Google’s rejected patent shows how AI could reshape personalized video feeds"
+      },
+      {
+        "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+        "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+        "source": "NPR",
+        "why": "Congo’s Ebola outbreak highlights a major public‑health emergency"
+      }
+    ],
+    "book": {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL15992072W",
+      "cover": "https://covers.openlibrary.org/b/id/13290711-M.jpg",
+      "why": "Offers insight into human decision making, useful for product design and personal productivity.",
+      "since": "2026-11-22",
+      "sinceLabel": "22 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "recycled paper journal",
+      "try": "Gather scrap paper, fold it into a booklet, and bind the edges with thread or glue; aim to finish the cover this week",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "Python CLI todo",
+      "do": "Create a new Python file that reads a JSON file of tasks, adds a task entered from input, and writes it back; run it to add one item"
+    }
   }
 ]
