@@ -1549,5 +1549,52 @@
       "topic": "Python CLI todo",
       "do": "Create a new Python file that reads a JSON file of tasks, adds a task entered from input, and writes it back; run it to add one item"
     }
+  },
+  {
+    "date": "2026-11-27",
+    "weekday": "Friday",
+    "longDate": "27 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+        "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "It explains how the war in Ukraine is affecting civilians as winter approaches"
+      },
+      {
+        "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+        "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+        "source": "The Verge",
+        "why": "Shows how to build personal Android widgets, a practical way to experiment with coding on a phone"
+      },
+      {
+        "title": "AI is straining America’s open records systems",
+        "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+        "source": "MIT Technology Review",
+        "why": "Discusses the impact of AI on public record systems, highlighting policy and technical challenges"
+      }
+    ],
+    "book": {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL15992072W",
+      "cover": "https://covers.openlibrary.org/b/id/13290711-M.jpg",
+      "why": "Offers insight into human decision making, useful for product design and personal productivity.",
+      "since": "2026-11-22",
+      "sinceLabel": "22 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "succulent terrarium",
+      "try": "Gather a clear jar, a few small succulents, potting soil and pebbles; layer pebbles, add soil, place the plants and water lightly",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "basic Node.js HTTP server",
+      "do": "Create a file server.js that uses Node's http module to return \"Hello World\" on port 3000 and run it with node"
+    }
   }
 ]
