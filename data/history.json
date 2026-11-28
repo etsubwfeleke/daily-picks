@@ -1596,5 +1596,52 @@
       "topic": "basic Node.js HTTP server",
       "do": "Create a file server.js that uses Node's http module to return \"Hello World\" on port 3000 and run it with node"
     }
+  },
+  {
+    "date": "2026-11-28",
+    "weekday": "Saturday",
+    "longDate": "28 November",
+    "model": "openai/gpt-oss-120b",
+    "articles": [
+      {
+        "title": "Dozens killed in Myanmar military strikes on wedding venue and school",
+        "url": "https://www.bbc.co.uk/news/articles/cm752q30q5leo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC",
+        "why": "Myanmar’s civilian deaths show the brutal impact of the military’s campaign."
+      },
+      {
+        "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+        "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+        "source": "The Verge",
+        "why": "The lawsuit against Character.AI raises important privacy concerns for AI chat services."
+      },
+      {
+        "title": "AI may soon change what it means to be a theoretical physicist",
+        "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+        "source": "Ars Technica",
+        "why": "AI’s role in theoretical physics could reshape how research problems are approached."
+      }
+    ],
+    "book": {
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "url": "https://openlibrary.org/works/OL15992072W",
+      "cover": "https://covers.openlibrary.org/b/id/13290711-M.jpg",
+      "why": "Offers insight into human decision making, useful for product design and personal productivity.",
+      "since": "2026-11-22",
+      "sinceLabel": "22 November",
+      "isNew": false
+    },
+    "hobby": {
+      "name": "cork bulletin board with pressed flowers",
+      "try": "Gather a piece of cork sheet, glue a few pressed flower petals in a pattern, and frame it with a simple wooden border.",
+      "time": "1 hour"
+    },
+    "learn": {
+      "kind": "coding",
+      "topic": "habit‑tracker CLI in Python",
+      "do": "Write a Python script that reads a JSON file of habits and lets you mark today’s completion via the command line."
+    }
   }
 ]
